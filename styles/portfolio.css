@@ -323,3 +323,10 @@ footer .footer-container {
     width: 100%;
 }
 }
+
+/* tablet device */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    #skills .skills-container .skills-box, #about .about-container .about-info, footer .footer-container, #resume .resume-container, nav, #hero-banner {
+        flex-direction: column;
+    }
+}
